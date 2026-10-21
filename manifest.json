@@ -1,12 +1,16 @@
 {
     "name": "desktoppet",
     "author": "deeadly137",
-    "version": "0.1.0",
-    "description": "A draggable desktop pet used to test the desktop-widget plugin entry point.",
+    "version": "0.2.0",
+    "description": "A Shimeji desktop pet that walks, climbs, and can be dragged around the screen.",
+    "settings": "settings.qml",
     "entryPoints": [
         {
             "type": "desktop-widget",
-            "source": "DesktopPet.qml"
+            "source": "DesktopPet.qml",
+            "properties": {
+                "layer": "top"
+            }
         }
     ]
 }
