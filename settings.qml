@@ -24,7 +24,7 @@ SettingsObject {
     SettingMeta on scale {
         label: "Scale"
         description: "Size multiplier for the 128px frame pack."
-        inputType: SettingMeta.SpinBox
+        inputType: SettingMeta.Slider
         min: 0.5
         max: 2
         step: 0.05
